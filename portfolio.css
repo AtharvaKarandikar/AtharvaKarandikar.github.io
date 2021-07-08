@@ -1,4 +1,6 @@
-
+.skills-grid{
+    padding-left: 15%;
+}
 body{
     margin: 0;
     height: 100%;
@@ -12,7 +14,9 @@ hr{
     background-color: black;
 }
 
-
+.fa-bootstrap{
+    color: blueviolet;
+}
 #mytext{
     padding-left: 30px;
     margin-right: 0px;
@@ -64,23 +68,91 @@ html {
 
 
 .fa-facebook{
-    background: rgba(0,0,00,0);
-    border-radius: 100%;
+    background: white;
+    border-radius:1000% ;
     font-size: 50px;
-    margin-right: 2%;
-
+    margin-right:2% ;
 
 }
 .fa-linkedin-in{
     background: rgba(0,0,00,0);
-
     padding-top: 0px;
-    font-size: 55px;
+    font-size: 50px;
+
+
+}
+.Project-header{
+    text-align: center;
+    align-content: center;
+    font-family: cursive;
+    color: antiquewhite;
+    font-size: 40px;
+}
+.fa:hover{
+    background:transparent;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.6s;
+    text-decoration: none;
+
+
+}
+.cp{
+    font-family: cursive;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.skill-icon{
+    padding: 5%;
+    align-content: center;
+    font-size: 750%;
+}
+.cpheader{
+    font-family: cursive;
+    color: rgb(223, 221, 235);
+    font-size: 20px;
+    font-weight: 400;
+
 
 }
 
 
+.fa-node{
+    color: #3c873a;
 
+}
+.fa-java{
+    color: #5382a1;
+
+}
+.fa-css3{
+    color: #2965f1;
+
+}
+.fa-html5{
+    color: #e34c26;
+    padding-right: 10%;
+
+}
+.fa-js-square{
+    color: 	#F0DB4F;
+
+}
+.fa-cuttlefish{
+    color: #5E97D0;
+
+}
+.work{
+    color:lightcyan;
+    font-size: 15px;
+}
+#Project{
+    padding-bottom: 30%;
+}
+.cateina{
+    color:burlywood;
+
+}
 li{
     padding: 10px;
     font-size: 20px;
@@ -88,8 +160,14 @@ li{
 a{
     color: rgb(152, 189, 194);
 }
-
+section{
+    height: 100vh;
+}
+.skills-grid{
+    height: 60%;
+}
 #greet{
+    width: 16ch;
     color:wheat;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
@@ -108,7 +186,7 @@ a{
 }
 @keyframes typing {
     from { width: 0 }
-    to { width: 80% }
+
 }
 @keyframes blink-caret {
     from, to { border-color: transparent }
@@ -165,10 +243,17 @@ span a:hover {
     color: greenyellow;
     transition: 0.6s;
 }
+.cp li a:hover{
+    background:transparent;
+    color:greenyellow;
+    font-size: 24px;
+    font-weight: 400;
+    transition: 0.6s;
+}
 li a:hover{
     background:transparent;
     color:greenyellow;
-    font-size: 16px;
+
     font-weight: 400;
     transition: 0.6s;
 }
@@ -187,17 +272,34 @@ li a:hover{
     right: -20px;
     transition: 0.5s;
 }
-
+.btn-primary{
+    padding-left: 10%;
+}
 .button:hover span {
     padding-right: 25px;
 }
+.fa-instagram{
+    background: rgba(0,0,00,0);
+    padding-top: 0px;
+    padding-left: 2%;
+    font-size: 55px;
+}
+#Projects{
+    border: rgba(0,0,0,0.5);
 
+    background: rgba(0,0,0,0.7);
+}
+#contact{
+    border: rgba(0,0,0,0.5);
+
+    background: rgba(0,0,0,0.7);
+}
 .button:hover span:after {
     opacity: 1;
     right: 0;}
 .info{
 
-    padding: 10%;
+   padding-left: 5%;
     padding-bottom: 0%;
     margin-top: 100px;
     color: bisque;
@@ -205,49 +307,12 @@ li a:hover{
 .inside{
     font-size: 20px;
 }
-.fa:hover {
+.fab:hover {
+    transition: 0.6s;
     opacity: 0.7;
 }
-
 b{
     color: greenyellow;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-google {
-    background: #dd4b39;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    margin-right: 20px;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    margin-right: 20px;
-    margin-left:20px ;
 }
 .connect{
     color: bisque;
