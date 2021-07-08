@@ -18,7 +18,8 @@
             <ul>
                 <li><a href="#Home" style="text-decoration: none;">Home</a></li>
                 <li><a href="#About"style="text-decoration: none;">About</a></li>
-                <li><a href="#Projects"style="text-decoration: none;">Skills/Projects</a></li>
+                <li><a href="#Projects"style="text-decoration: none;">Skills</a></li>
+                <li><a href="#Project" style="text-decoration: none;">Projects</a></li>
             </ul>
         </div>
     </nav>
@@ -26,21 +27,21 @@
 <section id= "Home" style="border: #99cc32 ">
     <div class="wrapper">
 
-        <p id="greet">Hi,I am Atharva Karandikar</p>
-        <p id="role"> | Programmer | Web Developer | Chess Enthusiest |</p>
+        <p id="greet">Hi,I am Atharva!</p>
+        <p id="role"> | Snapper | Programmer | Web Developer | Chess Enthusiest |</p>
         <button class="button" style="vertical-align:middle"><span><a href="#contact" style="text-decoration: none; color:burlywood;">Contact</a></span></button>
     </div>
     <div class = wrappertwo>
 
-        <a class="fab fa-facebook"></a>
-        <a class="fab fa-linkedin-in"></a>
+        <a class="fab fa-facebook" style="text-decoration: none; margin-left: 1%;padding:-1%;color: #3b5bb5"></a>
+        <a class="fab fa-linkedin-in" style="text-decoration: none"></a>
     </div>
 </section>
 <section id= "About">
     <div class="jumbotron jumbotron-fluid" style="background-color:rgba(240, 255, 240, 0.1)">
         <div class="container">
             <h2 class="display-4">About me :)</h2>
-            <img id="myphoto"src="/Ath.PNG">
+            <img id="myphoto"src="Ath.PNG">
             <p id ="mytext">
                 <br>
                 <br>
@@ -53,26 +54,37 @@
 
 </section>
 <section id="Projects">
-    <div class ="jumbotron jumbotron-fluid" style="background-color:rgba(240, 255, 240, 0.0)">
         <div class="container">
             <h2 class="display-4">Skills</h2>
-            <h3 >
-                <ul id="skills">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>js</li>
-                    <li>react</li>
-                    <li>c++</li>
-                    <li>jquery</li>
-                    <li>bootstrap</li>
+            <div class = "skills-grid">
+                <i class="fab fa-html5 skill-icon"></i>
+                <i class="fab fa-js-square skill-icon"></i>
+                <i class="fab fa-css3 skill-icon"></i>
+                <i class="fab fa-java skill-icon"></i>
+                <i class="fab fa-node skill-icon"></i>
+                <i class="fab fa-cuttlefish skill-icon">++</i>
+                <i class="fab fa-bootstrap skill-icon"></i>
+            </div>
+            <h3 class ="cpheader"> Coding profiles :
+                <ul class="cp">
+                    <li><a href="https://www.codechef.com/users/w_i_z_a_r_d_04" style="text-decoration: none; color: navajowhite">Codechef</a></li>
+                    <li><a href="https://codeforces.com/profile/athdon" style="text-decoration: none;color:navajowhite">Codeforces</a></li>
+                    <li><a href="https://www.hackerrank.com/Jarvis04" style="text-decoration: none; color: navajowhite">HackerRank</a></li>
                 </ul>
 
             </h3>
-            <h3> Competitive coding profiles :<a href="https://www.codechef.com/users/w_i_z_a_r_d_04">codechef</a>
-                <a href="https://codeforces.com/profile/AK_04">codeforces</a>
-            </h3>
         </div>
-    </div>
+</section>
+<section id="Project">
+    <h2 class="Project-header">Projects/Workexp</h2>
+    <ul>
+        <h3 class="cateina">Summer Intern June -July 2021 at Cateina Technologies</h3>
+        <ul class ="work">
+            Designing website layout and UI/UX for an organization using MEAN Stack for user Login, Signup and validating it.
+
+        </ul>
+    </ul>
+
 </section>
 <section id ="contact">
     <div class="info">
@@ -99,26 +111,29 @@
     <div class = "connect">
         <h2>Connect:
         </h2>
-        <a href="https://www.facebook.com/profile.php?id=100008746152882" class="fa fa-facebook"></a>
-
-        <a href="#" class="fa fa-google"></a>
-        <a href="https://www.linkedin.com/in/atharva-karandikar-12ab221ab/" class="fa fa-linkedin"></a>
-
-        <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/profile.php?id=100008746152882" class="fab fa-facebook" style="text-decoration: none; color: #3b5bb5"></a>
+        <a href="https://www.linkedin.com/in/atharva-karandikar-12ab221ab/" class="fab fa-linkedin-in" style="text-decoration: none"></a>
+        <a href="https://www.instagram.com/?hl=en" class="fab fa-instagram" style="text-decoration: none; color:hotpink"></a>
 
 
     </div>
-    <br>
-    <div class="form-group">
-        <label for="comment">Any Suggestions:</label>
-        <textarea class="form-control" rows="3" id="comment"></textarea>
-        <button type="button" class="btn btn-primary">Submit</button>
-    </div>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label >Suggestion?</label>
+            <input type="text" class="form-control" placeholder="improvements">
+        </div>
+        <div class="form-group form-check">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+    </form>
 
 
-
-</section>
-<section id="projects">
 
 </section>
 
