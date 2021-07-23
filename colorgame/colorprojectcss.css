@@ -1,0 +1,38 @@
+body {
+	background-color: #232323;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+#container {
+	margin: 0px auto;
+	max-width: 700px;
+}
+
+
+h1 { font size: 100px;
+	text-align: center;
+	color: yellow;
+}
+span {
+	color:yellow;
+}
+h2{text-align: center;
+	color:#00FFFF;
+}
+h3{text-align: center;
+	color:#9933FF;
+}
+p{text-align: center;
+	font size: 900px;
+	color: orange ;
+	padding-bottom: 20%;
+	margin: 0px auto;
+ 
+}
