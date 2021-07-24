@@ -125,14 +125,22 @@ container-card .card:nth-child(2) .box .content a {
 .skills-grid{
     padding-left: 15%;
 }
-body{
-    margin: 0;
-    height: 100%;
-    background-image :url('https://images.wallpaperscraft.com/image/photographer_camera_dark_133781_1920x1080.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+    background: linear-gradient(-45deg, #000220, #000536 , #1a3942, #091418);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 hr{
     background-color: black;
