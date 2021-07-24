@@ -149,11 +149,12 @@ hr{
 .fa-bootstrap{
     color: blueviolet;
 }
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 #mytext{
     padding-left: 30px;
     margin-right: 0px;
-    font-family: cursive;
-    color: wheat;
+    font-family: Nunito;
+    color: aliceblue;
 }
 h3{
     color: wheat;
