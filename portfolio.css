@@ -170,8 +170,8 @@ html {
     scroll-behavior: smooth;
 }
 .display-4{
-    font-family: cursive;
-    color: rgb(223, 221, 235);
+    font-family: "Poppins", sans-serif;
+    color: lightcyan;
     font-size: 40px;
     text-align: center;
 }
