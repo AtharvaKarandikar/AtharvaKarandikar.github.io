@@ -365,6 +365,7 @@ a{
     color: rgb(152, 189, 194);
 }
 section{
+    padding-bottom: 10%;
     height: fit-content;
 }
 .skills-grid{
