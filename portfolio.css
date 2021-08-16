@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 100vh;
+
     background: #232427;
 }
 
@@ -20,14 +20,14 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 100vw;
     margin: 40px 0;
 }
 
 .container-card .card {
     position: relative;
-    min-width: 320px;
-    height: 440px;
+    min-width: 290px;
+    height: 400px;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
     inset -5px -5px 15px rgba(255, 255, 255, 0.1),
     5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
@@ -115,6 +115,7 @@ container-card .card:nth-child(2) .box .content a {
     margin-top: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition: 0.5s;
+
 }
 .container-card .card .box .content a:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
@@ -143,9 +144,61 @@ body {
     }
 }
 hr{
-    background-color: black;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    background: #fff;
+    color: black;
 }
+#codechef{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: saddlebrown;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+#codechef:hover{
+    color: saddlebrown;
+    background: white;
 
+}
+#HackerRank{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: seagreen;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+#HackerRank:hover{
+    color: seagreen;
+    background: white;
+
+}
+#codeforces{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+#codeforces:hover{
+    color: red;
+    background: white;
+
+}
 .fa-bootstrap{
     color: blueviolet;
 }
@@ -170,11 +223,22 @@ h3{
 html {
     scroll-behavior: smooth;
 }
+.display-4a{
+    font-family: "Poppins", sans-serif;
+    color: lightcyan;
+    font-size: 40px;
+    margin-left: 34.5%;
+    padding-left: inherit;
+    text-align: left;
+    border: yellow;
+}
 .display-4{
     font-family: "Poppins", sans-serif;
     color: lightcyan;
     font-size: 40px;
+
     text-align: center;
+    border: yellow;
 }
 .jumbotron{
     padding: 0px;
@@ -198,7 +262,13 @@ html {
     padding-bottom: 5%;
 
 }
+.fa-github{
+    background: white;
+    border-radius:1000% ;
+    font-size: 50px;
+    margin-right:2% ;
 
+}
 
 .fa-facebook{
     background: white;
@@ -294,7 +364,7 @@ a{
     color: rgb(152, 189, 194);
 }
 section{
-    height: 100vh;
+    height: 120vh;
 }
 .skills-grid{
     height: 60%;
@@ -432,7 +502,8 @@ li a:hover{
     right: 0;}
 .info{
 
-   padding-left: 5%;
+    padding: inherit;
+    padding-left: 10%;
     padding-bottom: 0%;
     margin-top: 100px;
     color: bisque;
@@ -445,15 +516,16 @@ li a:hover{
     opacity: 0.7;
 }
 b{
-    color: greenyellow;
+    color: lightcyan;
 }
 .connect{
     color: bisque;
     padding-left: 10%;
 }
 .info h1{
+    padding-top: 5%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bolder;
+    padding-bottom: 5%;
     color:rgb(211, 236, 201);
 
 }
