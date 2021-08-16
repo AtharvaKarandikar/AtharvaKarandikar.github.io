@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+
+@AtharvaKarandikar
+AtharvaKarandikar
+/
+AtharvaKarandikar.github.io
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+AtharvaKarandikar.github.io/portfolio.css
+@AtharvaKarandikar
+AtharvaKarandikar Update portfolio.css
+Latest commit 1a1e86f 16 minutes ago
+History
+1 contributor
+538 lines (480 sloc)  9.99 KB
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
 * {
     margin: 0;
@@ -384,7 +414,7 @@ section{
             blink-caret .5s step-end infinite;
 
 
-    font-size: 60px;
+    font-size: 5vw;
     margin-top: 0px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -398,7 +428,7 @@ section{
     50% { border-color:white }
 }
 #role{
-    font-size: 25px;
+    font-size: 2.5vw;
 }
 .button {
     display: inline-block;
@@ -420,7 +450,7 @@ nav{
     padding: 0px;
     position: fixed;
     width: 100%;
-    line-height: 40px;
+    line-height: 5vw;
 
 
 }
@@ -429,19 +459,19 @@ nav ul {
     float : right;
     float: top;
     margin:0px;
-    padding-right: 4px;
+    padding-right: 0.4vw;
 
 }
 nav ul li{
     display: inline-flex;
-    padding: 16px 32px;
+    padding: 0.5vw 2vw;
 }
 nav ul li a {
     padding: 0.5em;
 
     color:white;
     text-decoration: wavy;
-    font-size: 16px;
+    font-size: 1.3vw;
 
 }
 span a:hover {
